@@ -10,12 +10,12 @@
   "scripts": {
 		"env": "cp .env app/api/.env && cp .env app/client/.env",
     "dev": "yarn workspaces run dev",
-    "dev:client": "yarn workspace @base-ts-cofig/client dev",
-    "dev:api": "yarn workspace @base-ts-cofig/api dev",
+    "dev:client": "yarn workspace @base-ts-config/client dev",
+    "dev:api": "yarn workspace @base-ts-config/api dev",
     "start": "yarn workspaces run start",
     "lint": "yarn workspaces run lint -o .lint.log",
-    "lint:client": "yarn workspaces @base-ts-cofig/client run lint",
-    "lint:api": "yarn workspaces @base-ts-cofig/api run lint"
+    "lint:client": "yarn workspaces @base-ts-config/client run lint",
+    "lint:api": "yarn workspaces @base-ts-config/api run lint"
   },
   "dependencies": {},
   "devDependencies": {
